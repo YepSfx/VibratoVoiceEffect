@@ -1,0 +1,314 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: Shift - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x409 /fo"Release/Shift.res" /d "NDEBUG" /d "_AFXDLL" "D:\Data\My Documents\Source Code\AppSource\Visual C\Demo VVE\Shift.rc"" 
+Creating temporary file "C:\DOCUME~1\CHULWO~1\LOCALS~1\Temp\RSP1C.tmp" with contents
+[
+/nologo /MD /W3 /GX /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Release/Shift.pch" /Yu"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"D:\Data\My Documents\Source Code\AppSource\Visual C\Demo VVE\delay.cpp"
+"D:\Data\My Documents\Source Code\AppSource\Visual C\Demo VVE\dsp_fft.cpp"
+"D:\Data\My Documents\Source Code\AppSource\Visual C\Demo VVE\dsp_util.cpp"
+"D:\Data\My Documents\Source Code\AppSource\Visual C\Demo VVE\filter.cpp"
+"D:\Data\My Documents\Source Code\AppSource\Visual C\Demo VVE\pdetect.cpp"
+"D:\Data\My Documents\Source Code\AppSource\Visual C\Demo VVE\pitshift.cpp"
+"D:\Data\My Documents\Source Code\AppSource\Visual C\Demo VVE\process.cpp"
+"D:\Data\My Documents\Source Code\AppSource\Visual C\Demo VVE\reverb.cpp"
+"D:\Data\My Documents\Source Code\AppSource\Visual C\Demo VVE\Shift.cpp"
+"D:\Data\My Documents\Source Code\AppSource\Visual C\Demo VVE\ShiftDlg.cpp"
+"D:\Data\My Documents\Source Code\AppSource\Visual C\Demo VVE\vcremove.cpp"
+"D:\Data\My Documents\Source Code\AppSource\Visual C\Demo VVE\vibrato.cpp"
+"D:\Data\My Documents\Source Code\AppSource\Visual C\Demo VVE\WaveCtrl.cpp"
+"D:\Data\My Documents\Source Code\AppSource\Visual C\Demo VVE\WaveFile.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\CHULWO~1\LOCALS~1\Temp\RSP1C.tmp" 
+Creating temporary file "C:\DOCUME~1\CHULWO~1\LOCALS~1\Temp\RSP1D.tmp" with contents
+[
+/nologo /MD /W3 /GX /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Release/Shift.pch" /Yc"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"D:\Data\My Documents\Source Code\AppSource\Visual C\Demo VVE\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\CHULWO~1\LOCALS~1\Temp\RSP1D.tmp" 
+Creating temporary file "C:\DOCUME~1\CHULWO~1\LOCALS~1\Temp\RSP1E.tmp" with contents
+[
+/nologo /subsystem:windows /incremental:no /pdb:"Release/Shift.pdb" /machine:I386 /out:"Release/Shift.exe" 
+".\Release\delay.obj"
+".\Release\dsp_fft.obj"
+".\Release\dsp_util.obj"
+".\Release\filter.obj"
+".\Release\pdetect.obj"
+".\Release\pitshift.obj"
+".\Release\process.obj"
+".\Release\reverb.obj"
+".\Release\Shift.obj"
+".\Release\ShiftDlg.obj"
+".\Release\StdAfx.obj"
+".\Release\vcremove.obj"
+".\Release\vibrato.obj"
+".\Release\WaveCtrl.obj"
+".\Release\WaveFile.obj"
+".\Release\Shift.res"
+]
+Creating command line "link.exe @C:\DOCUME~1\CHULWO~1\LOCALS~1\Temp\RSP1E.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+delay.cpp
+D:\Data\My Documents\Source Code\AppSource\Visual C\Demo VVE\delay.cpp(39) : warning C4305: '=' : truncation from 'const double' to 'float'
+D:\Data\My Documents\Source Code\AppSource\Visual C\Demo VVE\delay.cpp(292) : warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+D:\Data\My Documents\Source Code\AppSource\Visual C\Demo VVE\delay.cpp(340) : warning C4244: '=' : conversion from 'short' to 'char', possible loss of data
+D:\Data\My Documents\Source Code\AppSource\Visual C\Demo VVE\delay.cpp(341) : warning C4244: '=' : conversion from 'short' to 'char', possible loss of data
+D:\Data\My Documents\Source Code\AppSource\Visual C\Demo VVE\delay.cpp(519) : warning C4244: '=' : conversion from 'short' to 'char', possible loss of data
+D:\Data\My Documents\Source Code\AppSource\Visual C\Demo VVE\delay.cpp(520) : warning C4244: '=' : conversion from 'short' to 'char', possible loss of data
+dsp_fft.cpp
+D:\Data\My Documents\Source Code\AppSource\Visual C\Demo VVE\dsp_fft.cpp(46) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+D:\Data\My Documents\Source Code\AppSource\Visual C\Demo VVE\dsp_fft.cpp(47) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+D:\Data\My Documents\Source Code\AppSource\Visual C\Demo VVE\dsp_fft.cpp(48) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+dsp_util.cpp
+D:\Data\My Documents\Source Code\AppSource\Visual C\Demo VVE\dsp_util.cpp(101) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+D:\Data\My Documents\Source Code\AppSource\Visual C\Demo VVE\dsp_util.cpp(107) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+D:\Data\My Documents\Source Code\AppSource\Visual C\Demo VVE\dsp_util.cpp(114) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+D:\Data\My Documents\Source Code\AppSource\Visual C\Demo VVE\dsp_util.cpp(121) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+D:\Data\My Documents\Source Code\AppSource\Visual C\Demo VVE\dsp_util.cpp(137) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+filter.cpp
+D:\Data\My Documents\Source Code\AppSource\Visual C\Demo VVE\filter.cpp(174) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+D:\Data\My Documents\Source Code\AppSource\Visual C\Demo VVE\filter.cpp(175) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+D:\Data\My Documents\Source Code\AppSource\Visual C\Demo VVE\filter.cpp(179) : warning C4305: '=' : truncation from 'const double' to 'float'
+D:\Data\My Documents\Source Code\AppSource\Visual C\Demo VVE\filter.cpp(232) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+D:\Data\My Documents\Source Code\AppSource\Visual C\Demo VVE\filter.cpp(280) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+D:\Data\My Documents\Source Code\AppSource\Visual C\Demo VVE\filter.cpp(281) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+pdetect.cpp
+D:\Data\My Documents\Source Code\AppSource\Visual C\Demo VVE\pdetect.cpp(59) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+D:\Data\My Documents\Source Code\AppSource\Visual C\Demo VVE\pdetect.cpp(107) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+D:\Data\My Documents\Source Code\AppSource\Visual C\Demo VVE\pdetect.cpp(115) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+D:\Data\My Documents\Source Code\AppSource\Visual C\Demo VVE\pdetect.cpp(124) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+D:\Data\My Documents\Source Code\AppSource\Visual C\Demo VVE\pdetect.cpp(133) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+D:\Data\My Documents\Source Code\AppSource\Visual C\Demo VVE\pdetect.cpp(292) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+D:\Data\My Documents\Source Code\AppSource\Visual C\Demo VVE\pdetect.cpp(296) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+D:\Data\My Documents\Source Code\AppSource\Visual C\Demo VVE\pdetect.cpp(381) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+D:\Data\My Documents\Source Code\AppSource\Visual C\Demo VVE\pdetect.cpp(417) : warning C4305: '=' : truncation from 'const double' to 'float'
+D:\Data\My Documents\Source Code\AppSource\Visual C\Demo VVE\pdetect.cpp(511) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+D:\Data\My Documents\Source Code\AppSource\Visual C\Demo VVE\pdetect.cpp(514) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+D:\Data\My Documents\Source Code\AppSource\Visual C\Demo VVE\pdetect.cpp(519) : warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+D:\Data\My Documents\Source Code\AppSource\Visual C\Demo VVE\pdetect.cpp(446) : warning C4101: 'rms' : unreferenced local variable
+pitshift.cpp
+process.cpp
+D:\Data\My Documents\Source Code\AppSource\Visual C\Demo VVE\process.cpp(53) : warning C4305: 'initializing' : truncation from 'const double' to 'float'
+D:\Data\My Documents\Source Code\AppSource\Visual C\Demo VVE\process.cpp(93) : warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+D:\Data\My Documents\Source Code\AppSource\Visual C\Demo VVE\process.cpp(110) : warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+D:\Data\My Documents\Source Code\AppSource\Visual C\Demo VVE\process.cpp(361) : warning C4305: '=' : truncation from 'const double' to 'float'
+D:\Data\My Documents\Source Code\AppSource\Visual C\Demo VVE\process.cpp(362) : warning C4305: '=' : truncation from 'const double' to 'float'
+D:\Data\My Documents\Source Code\AppSource\Visual C\Demo VVE\process.cpp(363) : warning C4305: '=' : truncation from 'const double' to 'float'
+D:\Data\My Documents\Source Code\AppSource\Visual C\Demo VVE\process.cpp(371) : warning C4305: '=' : truncation from 'const double' to 'float'
+D:\Data\My Documents\Source Code\AppSource\Visual C\Demo VVE\process.cpp(372) : warning C4305: '=' : truncation from 'const double' to 'float'
+D:\Data\My Documents\Source Code\AppSource\Visual C\Demo VVE\process.cpp(373) : warning C4305: '=' : truncation from 'const double' to 'float'
+D:\Data\My Documents\Source Code\AppSource\Visual C\Demo VVE\process.cpp(382) : warning C4305: '=' : truncation from 'const double' to 'float'
+D:\Data\My Documents\Source Code\AppSource\Visual C\Demo VVE\process.cpp(441) : warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+D:\Data\My Documents\Source Code\AppSource\Visual C\Demo VVE\process.cpp(443) : warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+D:\Data\My Documents\Source Code\AppSource\Visual C\Demo VVE\process.cpp(491) : warning C4305: '=' : truncation from 'const double' to 'float'
+D:\Data\My Documents\Source Code\AppSource\Visual C\Demo VVE\process.cpp(492) : warning C4305: '=' : truncation from 'const double' to 'float'
+D:\Data\My Documents\Source Code\AppSource\Visual C\Demo VVE\process.cpp(493) : warning C4305: '=' : truncation from 'const double' to 'float'
+D:\Data\My Documents\Source Code\AppSource\Visual C\Demo VVE\process.cpp(501) : warning C4305: '=' : truncation from 'const double' to 'float'
+D:\Data\My Documents\Source Code\AppSource\Visual C\Demo VVE\process.cpp(502) : warning C4305: '=' : truncation from 'const double' to 'float'
+D:\Data\My Documents\Source Code\AppSource\Visual C\Demo VVE\process.cpp(503) : warning C4305: '=' : truncation from 'const double' to 'float'
+D:\Data\My Documents\Source Code\AppSource\Visual C\Demo VVE\process.cpp(520) : warning C4305: '=' : truncation from 'const int' to 'char'
+D:\Data\My Documents\Source Code\AppSource\Visual C\Demo VVE\process.cpp(520) : warning C4309: '=' : truncation of constant value
+D:\Data\My Documents\Source Code\AppSource\Visual C\Demo VVE\process.cpp(557) : warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+D:\Data\My Documents\Source Code\AppSource\Visual C\Demo VVE\process.cpp(571) : warning C4101: 'tmp' : unreferenced local variable
+D:\Data\My Documents\Source Code\AppSource\Visual C\Demo VVE\process.cpp(570) : warning C4101: 'tmpnote' : unreferenced local variable
+D:\Data\My Documents\Source Code\AppSource\Visual C\Demo VVE\process.cpp(598) : warning C4305: '=' : truncation from 'const double' to 'float'
+D:\Data\My Documents\Source Code\AppSource\Visual C\Demo VVE\process.cpp(613) : warning C4305: '=' : truncation from 'const double' to 'float'
+reverb.cpp
+D:\Data\My Documents\Source Code\AppSource\Visual C\Demo VVE\reverb.cpp(54) : warning C4305: '=' : truncation from 'const double' to 'float'
+D:\Data\My Documents\Source Code\AppSource\Visual C\Demo VVE\reverb.cpp(92) : warning C4305: '=' : truncation from 'const double' to 'float'
+D:\Data\My Documents\Source Code\AppSource\Visual C\Demo VVE\reverb.cpp(101) : warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+D:\Data\My Documents\Source Code\AppSource\Visual C\Demo VVE\reverb.cpp(144) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+D:\Data\My Documents\Source Code\AppSource\Visual C\Demo VVE\reverb.cpp(154) : warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+D:\Data\My Documents\Source Code\AppSource\Visual C\Demo VVE\reverb.cpp(203) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+D:\Data\My Documents\Source Code\AppSource\Visual C\Demo VVE\reverb.cpp(293) : warning C4244: '=' : conversion from 'double' to 'short', possible loss of data
+D:\Data\My Documents\Source Code\AppSource\Visual C\Demo VVE\reverb.cpp(294) : warning C4244: '+=' : conversion from 'float' to 'short', possible loss of data
+D:\Data\My Documents\Source Code\AppSource\Visual C\Demo VVE\reverb.cpp(296) : warning C4244: '=' : conversion from 'double' to 'short', possible loss of data
+D:\Data\My Documents\Source Code\AppSource\Visual C\Demo VVE\reverb.cpp(299) : warning C4244: '=' : conversion from 'double' to 'short', possible loss of data
+D:\Data\My Documents\Source Code\AppSource\Visual C\Demo VVE\reverb.cpp(302) : warning C4244: '=' : conversion from 'double' to 'short', possible loss of data
+D:\Data\My Documents\Source Code\AppSource\Visual C\Demo VVE\reverb.cpp(306) : warning C4244: '=' : conversion from 'float' to 'short', possible loss of data
+D:\Data\My Documents\Source Code\AppSource\Visual C\Demo VVE\reverb.cpp(307) : warning C4244: '=' : conversion from 'float' to 'short', possible loss of data
+D:\Data\My Documents\Source Code\AppSource\Visual C\Demo VVE\reverb.cpp(314) : warning C4244: '=' : conversion from 'float' to 'short', possible loss of data
+D:\Data\My Documents\Source Code\AppSource\Visual C\Demo VVE\reverb.cpp(315) : warning C4244: '=' : conversion from 'float' to 'short', possible loss of data
+D:\Data\My Documents\Source Code\AppSource\Visual C\Demo VVE\reverb.cpp(317) : warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+D:\Data\My Documents\Source Code\AppSource\Visual C\Demo VVE\reverb.cpp(327) : warning C4244: '=' : conversion from 'double' to 'short', possible loss of data
+D:\Data\My Documents\Source Code\AppSource\Visual C\Demo VVE\reverb.cpp(328) : warning C4244: '+=' : conversion from 'float' to 'short', possible loss of data
+D:\Data\My Documents\Source Code\AppSource\Visual C\Demo VVE\reverb.cpp(330) : warning C4244: '=' : conversion from 'double' to 'short', possible loss of data
+D:\Data\My Documents\Source Code\AppSource\Visual C\Demo VVE\reverb.cpp(333) : warning C4244: '=' : conversion from 'double' to 'short', possible loss of data
+D:\Data\My Documents\Source Code\AppSource\Visual C\Demo VVE\reverb.cpp(336) : warning C4244: '=' : conversion from 'double' to 'short', possible loss of data
+D:\Data\My Documents\Source Code\AppSource\Visual C\Demo VVE\reverb.cpp(340) : warning C4244: '=' : conversion from 'float' to 'short', possible loss of data
+D:\Data\My Documents\Source Code\AppSource\Visual C\Demo VVE\reverb.cpp(341) : warning C4244: '=' : conversion from 'float' to 'short', possible loss of data
+D:\Data\My Documents\Source Code\AppSource\Visual C\Demo VVE\reverb.cpp(348) : warning C4244: '=' : conversion from 'float' to 'short', possible loss of data
+D:\Data\My Documents\Source Code\AppSource\Visual C\Demo VVE\reverb.cpp(349) : warning C4244: '=' : conversion from 'float' to 'short', possible loss of data
+D:\Data\My Documents\Source Code\AppSource\Visual C\Demo VVE\reverb.cpp(351) : warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+D:\Data\My Documents\Source Code\AppSource\Visual C\Demo VVE\reverb.cpp(369) : warning C4244: '=' : conversion from 'double' to 'short', possible loss of data
+D:\Data\My Documents\Source Code\AppSource\Visual C\Demo VVE\reverb.cpp(370) : warning C4244: '=' : conversion from 'double' to 'short', possible loss of data
+D:\Data\My Documents\Source Code\AppSource\Visual C\Demo VVE\reverb.cpp(371) : warning C4244: '+=' : conversion from 'float' to 'short', possible loss of data
+D:\Data\My Documents\Source Code\AppSource\Visual C\Demo VVE\reverb.cpp(372) : warning C4244: '+=' : conversion from 'float' to 'short', possible loss of data
+D:\Data\My Documents\Source Code\AppSource\Visual C\Demo VVE\reverb.cpp(374) : warning C4244: '=' : conversion from 'double' to 'short', possible loss of data
+D:\Data\My Documents\Source Code\AppSource\Visual C\Demo VVE\reverb.cpp(375) : warning C4244: '=' : conversion from 'double' to 'short', possible loss of data
+D:\Data\My Documents\Source Code\AppSource\Visual C\Demo VVE\reverb.cpp(378) : warning C4244: '=' : conversion from 'double' to 'short', possible loss of data
+D:\Data\My Documents\Source Code\AppSource\Visual C\Demo VVE\reverb.cpp(379) : warning C4244: '=' : conversion from 'double' to 'short', possible loss of data
+D:\Data\My Documents\Source Code\AppSource\Visual C\Demo VVE\reverb.cpp(383) : warning C4244: '=' : conversion from 'double' to 'short', possible loss of data
+D:\Data\My Documents\Source Code\AppSource\Visual C\Demo VVE\reverb.cpp(384) : warning C4244: '=' : conversion from 'double' to 'short', possible loss of data
+D:\Data\My Documents\Source Code\AppSource\Visual C\Demo VVE\reverb.cpp(388) : warning C4244: '=' : conversion from 'float' to 'short', possible loss of data
+D:\Data\My Documents\Source Code\AppSource\Visual C\Demo VVE\reverb.cpp(389) : warning C4244: '=' : conversion from 'float' to 'short', possible loss of data
+D:\Data\My Documents\Source Code\AppSource\Visual C\Demo VVE\reverb.cpp(390) : warning C4244: '=' : conversion from 'float' to 'short', possible loss of data
+D:\Data\My Documents\Source Code\AppSource\Visual C\Demo VVE\reverb.cpp(391) : warning C4244: '=' : conversion from 'float' to 'short', possible loss of data
+D:\Data\My Documents\Source Code\AppSource\Visual C\Demo VVE\reverb.cpp(398) : warning C4244: '=' : conversion from 'float' to 'short', possible loss of data
+D:\Data\My Documents\Source Code\AppSource\Visual C\Demo VVE\reverb.cpp(399) : warning C4244: '=' : conversion from 'float' to 'short', possible loss of data
+D:\Data\My Documents\Source Code\AppSource\Visual C\Demo VVE\reverb.cpp(401) : warning C4244: '=' : conversion from 'float' to 'short', possible loss of data
+D:\Data\My Documents\Source Code\AppSource\Visual C\Demo VVE\reverb.cpp(402) : warning C4244: '=' : conversion from 'float' to 'short', possible loss of data
+D:\Data\My Documents\Source Code\AppSource\Visual C\Demo VVE\reverb.cpp(404) : warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+D:\Data\My Documents\Source Code\AppSource\Visual C\Demo VVE\reverb.cpp(405) : warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+D:\Data\My Documents\Source Code\AppSource\Visual C\Demo VVE\reverb.cpp(416) : warning C4244: '=' : conversion from 'double' to 'short', possible loss of data
+D:\Data\My Documents\Source Code\AppSource\Visual C\Demo VVE\reverb.cpp(417) : warning C4244: '=' : conversion from 'double' to 'short', possible loss of data
+D:\Data\My Documents\Source Code\AppSource\Visual C\Demo VVE\reverb.cpp(418) : warning C4244: '+=' : conversion from 'float' to 'short', possible loss of data
+D:\Data\My Documents\Source Code\AppSource\Visual C\Demo VVE\reverb.cpp(419) : warning C4244: '+=' : conversion from 'float' to 'short', possible loss of data
+D:\Data\My Documents\Source Code\AppSource\Visual C\Demo VVE\reverb.cpp(421) : warning C4244: '=' : conversion from 'double' to 'short', possible loss of data
+D:\Data\My Documents\Source Code\AppSource\Visual C\Demo VVE\reverb.cpp(422) : warning C4244: '=' : conversion from 'double' to 'short', possible loss of data
+D:\Data\My Documents\Source Code\AppSource\Visual C\Demo VVE\reverb.cpp(425) : warning C4244: '=' : conversion from 'double' to 'short', possible loss of data
+D:\Data\My Documents\Source Code\AppSource\Visual C\Demo VVE\reverb.cpp(426) : warning C4244: '=' : conversion from 'double' to 'short', possible loss of data
+D:\Data\My Documents\Source Code\AppSource\Visual C\Demo VVE\reverb.cpp(430) : warning C4244: '=' : conversion from 'double' to 'short', possible loss of data
+D:\Data\My Documents\Source Code\AppSource\Visual C\Demo VVE\reverb.cpp(431) : warning C4244: '=' : conversion from 'double' to 'short', possible loss of data
+D:\Data\My Documents\Source Code\AppSource\Visual C\Demo VVE\reverb.cpp(435) : warning C4244: '=' : conversion from 'float' to 'short', possible loss of data
+D:\Data\My Documents\Source Code\AppSource\Visual C\Demo VVE\reverb.cpp(436) : warning C4244: '=' : conversion from 'float' to 'short', possible loss of data
+D:\Data\My Documents\Source Code\AppSource\Visual C\Demo VVE\reverb.cpp(437) : warning C4244: '=' : conversion from 'float' to 'short', possible loss of data
+D:\Data\My Documents\Source Code\AppSource\Visual C\Demo VVE\reverb.cpp(438) : warning C4244: '=' : conversion from 'float' to 'short', possible loss of data
+D:\Data\My Documents\Source Code\AppSource\Visual C\Demo VVE\reverb.cpp(445) : warning C4244: '=' : conversion from 'float' to 'short', possible loss of data
+D:\Data\My Documents\Source Code\AppSource\Visual C\Demo VVE\reverb.cpp(446) : warning C4244: '=' : conversion from 'float' to 'short', possible loss of data
+D:\Data\My Documents\Source Code\AppSource\Visual C\Demo VVE\reverb.cpp(448) : warning C4244: '=' : conversion from 'float' to 'short', possible loss of data
+D:\Data\My Documents\Source Code\AppSource\Visual C\Demo VVE\reverb.cpp(449) : warning C4244: '=' : conversion from 'float' to 'short', possible loss of data
+D:\Data\My Documents\Source Code\AppSource\Visual C\Demo VVE\reverb.cpp(451) : warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+D:\Data\My Documents\Source Code\AppSource\Visual C\Demo VVE\reverb.cpp(452) : warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+D:\Data\My Documents\Source Code\AppSource\Visual C\Demo VVE\reverb.cpp(495) : warning C4244: '=' : conversion from 'double' to 'short', possible loss of data
+D:\Data\My Documents\Source Code\AppSource\Visual C\Demo VVE\reverb.cpp(496) : warning C4244: '+=' : conversion from 'float' to 'short', possible loss of data
+D:\Data\My Documents\Source Code\AppSource\Visual C\Demo VVE\reverb.cpp(498) : warning C4244: '=' : conversion from 'double' to 'short', possible loss of data
+D:\Data\My Documents\Source Code\AppSource\Visual C\Demo VVE\reverb.cpp(501) : warning C4244: '=' : conversion from 'double' to 'short', possible loss of data
+D:\Data\My Documents\Source Code\AppSource\Visual C\Demo VVE\reverb.cpp(504) : warning C4244: '=' : conversion from 'double' to 'short', possible loss of data
+D:\Data\My Documents\Source Code\AppSource\Visual C\Demo VVE\reverb.cpp(507) : warning C4244: '=' : conversion from 'double' to 'short', possible loss of data
+D:\Data\My Documents\Source Code\AppSource\Visual C\Demo VVE\reverb.cpp(510) : warning C4244: '=' : conversion from 'double' to 'short', possible loss of data
+D:\Data\My Documents\Source Code\AppSource\Visual C\Demo VVE\reverb.cpp(516) : warning C4244: '=' : conversion from 'float' to 'short', possible loss of data
+D:\Data\My Documents\Source Code\AppSource\Visual C\Demo VVE\reverb.cpp(517) : warning C4244: '=' : conversion from 'float' to 'short', possible loss of data
+D:\Data\My Documents\Source Code\AppSource\Visual C\Demo VVE\reverb.cpp(518) : warning C4244: '=' : conversion from 'float' to 'short', possible loss of data
+D:\Data\My Documents\Source Code\AppSource\Visual C\Demo VVE\reverb.cpp(519) : warning C4244: '=' : conversion from 'float' to 'short', possible loss of data
+D:\Data\My Documents\Source Code\AppSource\Visual C\Demo VVE\reverb.cpp(535) : warning C4244: '=' : conversion from 'float' to 'short', possible loss of data
+D:\Data\My Documents\Source Code\AppSource\Visual C\Demo VVE\reverb.cpp(536) : warning C4244: '=' : conversion from 'float' to 'short', possible loss of data
+D:\Data\My Documents\Source Code\AppSource\Visual C\Demo VVE\reverb.cpp(538) : warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+D:\Data\My Documents\Source Code\AppSource\Visual C\Demo VVE\reverb.cpp(548) : warning C4244: '=' : conversion from 'double' to 'short', possible loss of data
+D:\Data\My Documents\Source Code\AppSource\Visual C\Demo VVE\reverb.cpp(549) : warning C4244: '+=' : conversion from 'float' to 'short', possible loss of data
+D:\Data\My Documents\Source Code\AppSource\Visual C\Demo VVE\reverb.cpp(551) : warning C4244: '=' : conversion from 'double' to 'short', possible loss of data
+D:\Data\My Documents\Source Code\AppSource\Visual C\Demo VVE\reverb.cpp(554) : warning C4244: '=' : conversion from 'double' to 'short', possible loss of data
+D:\Data\My Documents\Source Code\AppSource\Visual C\Demo VVE\reverb.cpp(557) : warning C4244: '=' : conversion from 'double' to 'short', possible loss of data
+D:\Data\My Documents\Source Code\AppSource\Visual C\Demo VVE\reverb.cpp(560) : warning C4244: '=' : conversion from 'double' to 'short', possible loss of data
+D:\Data\My Documents\Source Code\AppSource\Visual C\Demo VVE\reverb.cpp(563) : warning C4244: '=' : conversion from 'double' to 'short', possible loss of data
+D:\Data\My Documents\Source Code\AppSource\Visual C\Demo VVE\reverb.cpp(569) : warning C4244: '=' : conversion from 'float' to 'short', possible loss of data
+D:\Data\My Documents\Source Code\AppSource\Visual C\Demo VVE\reverb.cpp(570) : warning C4244: '=' : conversion from 'float' to 'short', possible loss of data
+D:\Data\My Documents\Source Code\AppSource\Visual C\Demo VVE\reverb.cpp(571) : warning C4244: '=' : conversion from 'float' to 'short', possible loss of data
+D:\Data\My Documents\Source Code\AppSource\Visual C\Demo VVE\reverb.cpp(572) : warning C4244: '=' : conversion from 'float' to 'short', possible loss of data
+D:\Data\My Documents\Source Code\AppSource\Visual C\Demo VVE\reverb.cpp(588) : warning C4244: '=' : conversion from 'float' to 'short', possible loss of data
+D:\Data\My Documents\Source Code\AppSource\Visual C\Demo VVE\reverb.cpp(589) : warning C4244: '=' : conversion from 'float' to 'short', possible loss of data
+D:\Data\My Documents\Source Code\AppSource\Visual C\Demo VVE\reverb.cpp(591) : warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+D:\Data\My Documents\Source Code\AppSource\Visual C\Demo VVE\reverb.cpp(609) : warning C4244: '=' : conversion from 'double' to 'short', possible loss of data
+D:\Data\My Documents\Source Code\AppSource\Visual C\Demo VVE\reverb.cpp(610) : warning C4244: '=' : conversion from 'double' to 'short', possible loss of data
+D:\Data\My Documents\Source Code\AppSource\Visual C\Demo VVE\reverb.cpp(611) : warning C4244: '+=' : conversion from 'float' to 'short', possible loss of data
+D:\Data\My Documents\Source Code\AppSource\Visual C\Demo VVE\reverb.cpp(612) : warning C4244: '+=' : conversion from 'float' to 'short', possible loss of data
+D:\Data\My Documents\Source Code\AppSource\Visual C\Demo VVE\reverb.cpp(614) : warning C4244: '=' : conversion from 'double' to 'short', possible loss of data
+D:\Data\My Documents\Source Code\AppSource\Visual C\Demo VVE\reverb.cpp(615) : warning C4244: '=' : conversion from 'double' to 'short', possible loss of data
+D:\Data\My Documents\Source Code\AppSource\Visual C\Demo VVE\reverb.cpp(618) : warning C4244: '=' : conversion from 'double' to 'short', possible loss of data
+D:\Data\My Documents\Source Code\AppSource\Visual C\Demo VVE\reverb.cpp(619) : warning C4244: '=' : conversion from 'double' to 'short', possible loss of data
+D:\Data\My Documents\Source Code\AppSource\Visual C\Demo VVE\reverb.cpp(623) : warning C4244: '=' : conversion from 'double' to 'short', possible loss of data
+D:\Data\My Documents\Source Code\AppSource\Visual C\Demo VVE\reverb.cpp(624) : warning C4244: '=' : conversion from 'double' to 'short', possible loss of data
+D:\Data\My Documents\Source Code\AppSource\Visual C\Demo VVE\reverb.cpp(627) : warning C4244: '=' : conversion from 'double' to 'short', possible loss of data
+D:\Data\My Documents\Source Code\AppSource\Visual C\Demo VVE\reverb.cpp(628) : warning C4244: '=' : conversion from 'double' to 'short', possible loss of data
+D:\Data\My Documents\Source Code\AppSource\Visual C\Demo VVE\reverb.cpp(632) : warning C4244: '=' : conversion from 'double' to 'short', possible loss of data
+D:\Data\My Documents\Source Code\AppSource\Visual C\Demo VVE\reverb.cpp(633) : warning C4244: '=' : conversion from 'double' to 'short', possible loss of data
+D:\Data\My Documents\Source Code\AppSource\Visual C\Demo VVE\reverb.cpp(639) : warning C4244: '=' : conversion from 'float' to 'short', possible loss of data
+D:\Data\My Documents\Source Code\AppSource\Visual C\Demo VVE\reverb.cpp(640) : warning C4244: '=' : conversion from 'float' to 'short', possible loss of data
+D:\Data\My Documents\Source Code\AppSource\Visual C\Demo VVE\reverb.cpp(641) : warning C4244: '=' : conversion from 'float' to 'short', possible loss of data
+D:\Data\My Documents\Source Code\AppSource\Visual C\Demo VVE\reverb.cpp(642) : warning C4244: '=' : conversion from 'float' to 'short', possible loss of data
+D:\Data\My Documents\Source Code\AppSource\Visual C\Demo VVE\reverb.cpp(643) : warning C4244: '=' : conversion from 'float' to 'short', possible loss of data
+D:\Data\My Documents\Source Code\AppSource\Visual C\Demo VVE\reverb.cpp(644) : warning C4244: '=' : conversion from 'float' to 'short', possible loss of data
+D:\Data\My Documents\Source Code\AppSource\Visual C\Demo VVE\reverb.cpp(645) : warning C4244: '=' : conversion from 'float' to 'short', possible loss of data
+D:\Data\My Documents\Source Code\AppSource\Visual C\Demo VVE\reverb.cpp(646) : warning C4244: '=' : conversion from 'float' to 'short', possible loss of data
+D:\Data\My Documents\Source Code\AppSource\Visual C\Demo VVE\reverb.cpp(664) : warning C4244: '=' : conversion from 'float' to 'short', possible loss of data
+D:\Data\My Documents\Source Code\AppSource\Visual C\Demo VVE\reverb.cpp(665) : warning C4244: '=' : conversion from 'float' to 'short', possible loss of data
+D:\Data\My Documents\Source Code\AppSource\Visual C\Demo VVE\reverb.cpp(666) : warning C4244: '=' : conversion from 'float' to 'short', possible loss of data
+D:\Data\My Documents\Source Code\AppSource\Visual C\Demo VVE\reverb.cpp(667) : warning C4244: '=' : conversion from 'float' to 'short', possible loss of data
+D:\Data\My Documents\Source Code\AppSource\Visual C\Demo VVE\reverb.cpp(669) : warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+D:\Data\My Documents\Source Code\AppSource\Visual C\Demo VVE\reverb.cpp(670) : warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+D:\Data\My Documents\Source Code\AppSource\Visual C\Demo VVE\reverb.cpp(681) : warning C4244: '=' : conversion from 'double' to 'short', possible loss of data
+D:\Data\My Documents\Source Code\AppSource\Visual C\Demo VVE\reverb.cpp(682) : warning C4244: '=' : conversion from 'double' to 'short', possible loss of data
+D:\Data\My Documents\Source Code\AppSource\Visual C\Demo VVE\reverb.cpp(683) : warning C4244: '+=' : conversion from 'float' to 'short', possible loss of data
+D:\Data\My Documents\Source Code\AppSource\Visual C\Demo VVE\reverb.cpp(684) : warning C4244: '+=' : conversion from 'float' to 'short', possible loss of data
+D:\Data\My Documents\Source Code\AppSource\Visual C\Demo VVE\reverb.cpp(686) : warning C4244: '=' : conversion from 'double' to 'short', possible loss of data
+D:\Data\My Documents\Source Code\AppSource\Visual C\Demo VVE\reverb.cpp(687) : warning C4244: '=' : conversion from 'double' to 'short', possible loss of data
+D:\Data\My Documents\Source Code\AppSource\Visual C\Demo VVE\reverb.cpp(690) : warning C4244: '=' : conversion from 'double' to 'short', possible loss of data
+D:\Data\My Documents\Source Code\AppSource\Visual C\Demo VVE\reverb.cpp(691) : warning C4244: '=' : conversion from 'double' to 'short', possible loss of data
+D:\Data\My Documents\Source Code\AppSource\Visual C\Demo VVE\reverb.cpp(695) : warning C4244: '=' : conversion from 'double' to 'short', possible loss of data
+D:\Data\My Documents\Source Code\AppSource\Visual C\Demo VVE\reverb.cpp(696) : warning C4244: '=' : conversion from 'double' to 'short', possible loss of data
+D:\Data\My Documents\Source Code\AppSource\Visual C\Demo VVE\reverb.cpp(699) : warning C4244: '=' : conversion from 'double' to 'short', possible loss of data
+D:\Data\My Documents\Source Code\AppSource\Visual C\Demo VVE\reverb.cpp(700) : warning C4244: '=' : conversion from 'double' to 'short', possible loss of data
+D:\Data\My Documents\Source Code\AppSource\Visual C\Demo VVE\reverb.cpp(704) : warning C4244: '=' : conversion from 'double' to 'short', possible loss of data
+D:\Data\My Documents\Source Code\AppSource\Visual C\Demo VVE\reverb.cpp(705) : warning C4244: '=' : conversion from 'double' to 'short', possible loss of data
+D:\Data\My Documents\Source Code\AppSource\Visual C\Demo VVE\reverb.cpp(711) : warning C4244: '=' : conversion from 'float' to 'short', possible loss of data
+D:\Data\My Documents\Source Code\AppSource\Visual C\Demo VVE\reverb.cpp(712) : warning C4244: '=' : conversion from 'float' to 'short', possible loss of data
+D:\Data\My Documents\Source Code\AppSource\Visual C\Demo VVE\reverb.cpp(713) : warning C4244: '=' : conversion from 'float' to 'short', possible loss of data
+D:\Data\My Documents\Source Code\AppSource\Visual C\Demo VVE\reverb.cpp(714) : warning C4244: '=' : conversion from 'float' to 'short', possible loss of data
+D:\Data\My Documents\Source Code\AppSource\Visual C\Demo VVE\reverb.cpp(715) : warning C4244: '=' : conversion from 'float' to 'short', possible loss of data
+D:\Data\My Documents\Source Code\AppSource\Visual C\Demo VVE\reverb.cpp(716) : warning C4244: '=' : conversion from 'float' to 'short', possible loss of data
+D:\Data\My Documents\Source Code\AppSource\Visual C\Demo VVE\reverb.cpp(717) : warning C4244: '=' : conversion from 'float' to 'short', possible loss of data
+D:\Data\My Documents\Source Code\AppSource\Visual C\Demo VVE\reverb.cpp(718) : warning C4244: '=' : conversion from 'float' to 'short', possible loss of data
+D:\Data\My Documents\Source Code\AppSource\Visual C\Demo VVE\reverb.cpp(736) : warning C4244: '=' : conversion from 'float' to 'short', possible loss of data
+D:\Data\My Documents\Source Code\AppSource\Visual C\Demo VVE\reverb.cpp(737) : warning C4244: '=' : conversion from 'float' to 'short', possible loss of data
+D:\Data\My Documents\Source Code\AppSource\Visual C\Demo VVE\reverb.cpp(738) : warning C4244: '=' : conversion from 'float' to 'short', possible loss of data
+D:\Data\My Documents\Source Code\AppSource\Visual C\Demo VVE\reverb.cpp(739) : warning C4244: '=' : conversion from 'float' to 'short', possible loss of data
+D:\Data\My Documents\Source Code\AppSource\Visual C\Demo VVE\reverb.cpp(741) : warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+D:\Data\My Documents\Source Code\AppSource\Visual C\Demo VVE\reverb.cpp(742) : warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+Shift.cpp
+ShiftDlg.cpp
+D:\Data\My Documents\Source Code\AppSource\Visual C\Demo VVE\ShiftDlg.cpp(17) : warning C4305: 'initializing' : truncation from 'const double' to 'float'
+D:\Data\My Documents\Source Code\AppSource\Visual C\Demo VVE\ShiftDlg.cpp(398) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+D:\Data\My Documents\Source Code\AppSource\Visual C\Demo VVE\ShiftDlg.cpp(399) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+D:\Data\My Documents\Source Code\AppSource\Visual C\Demo VVE\ShiftDlg.cpp(411) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+D:\Data\My Documents\Source Code\AppSource\Visual C\Demo VVE\ShiftDlg.cpp(425) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+D:\Data\My Documents\Source Code\AppSource\Visual C\Demo VVE\ShiftDlg.cpp(440) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+D:\Data\My Documents\Source Code\AppSource\Visual C\Demo VVE\ShiftDlg.cpp(454) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+D:\Data\My Documents\Source Code\AppSource\Visual C\Demo VVE\ShiftDlg.cpp(481) : warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+D:\Data\My Documents\Source Code\AppSource\Visual C\Demo VVE\ShiftDlg.cpp(539) : warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+D:\Data\My Documents\Source Code\AppSource\Visual C\Demo VVE\ShiftDlg.cpp(539) : warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+D:\Data\My Documents\Source Code\AppSource\Visual C\Demo VVE\ShiftDlg.cpp(568) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+D:\Data\My Documents\Source Code\AppSource\Visual C\Demo VVE\ShiftDlg.cpp(560) : warning C4101: 'nt' : unreferenced local variable
+D:\Data\My Documents\Source Code\AppSource\Visual C\Demo VVE\ShiftDlg.cpp(586) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+D:\Data\My Documents\Source Code\AppSource\Visual C\Demo VVE\ShiftDlg.cpp(587) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+vcremove.cpp
+D:\Data\My Documents\Source Code\AppSource\Visual C\Demo VVE\vcremove.cpp(17) : warning C4244: 'argument' : conversion from 'float' to 'char', possible loss of data
+D:\Data\My Documents\Source Code\AppSource\Visual C\Demo VVE\vcremove.cpp(18) : warning C4244: 'argument' : conversion from 'float' to 'char', possible loss of data
+vibrato.cpp
+D:\Data\My Documents\Source Code\AppSource\Visual C\Demo VVE\vibrato.cpp(22) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+D:\Data\My Documents\Source Code\AppSource\Visual C\Demo VVE\vibrato.cpp(27) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+D:\Data\My Documents\Source Code\AppSource\Visual C\Demo VVE\vibrato.cpp(33) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+WaveCtrl.cpp
+D:\Data\My Documents\Source Code\AppSource\Visual C\Demo VVE\WaveCtrl.cpp(202) : warning C4172: returning address of local variable or temporary
+D:\Data\My Documents\Source Code\AppSource\Visual C\Demo VVE\WaveCtrl.cpp(805) : warning C4172: returning address of local variable or temporary
+WaveFile.cpp
+D:\Data\My Documents\Source Code\AppSource\Visual C\Demo VVE\WaveFile.cpp(79) : warning C4172: returning address of local variable or temporary
+Generating Code...
+Linking...
+
+
+
+<h3>Results</h3>
+Shift.exe - 0 error(s), 230 warning(s)
+</pre>
+</body>
+</html>

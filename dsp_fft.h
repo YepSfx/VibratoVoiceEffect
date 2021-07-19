@@ -1,0 +1,1 @@
+void	dspfft(float *fftBuffer, long fftFrameSize, long sign);

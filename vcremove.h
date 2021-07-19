@@ -1,0 +1,1 @@
+int VocalRemove(char *pData, int nSam, int nBit, float Th);

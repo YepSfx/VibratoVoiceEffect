@@ -1,0 +1,10 @@
+int		InitDelay	 (DELAYDATA *pDelay);
+int		MakeDelay	 (DELAYDATA *pDelay, int nProcSam);
+int		MakeDelayLine(DELAYDATA *pDelay, int nProcSam, int nDelay);
+int		PutDelay	 (DELAYDATA *pDelay, char *pData, int nSam);
+int		GetDelay	 (DELAYDATA *pDelay, char *pData, int nSam, int   nDelaySam);
+int		GetFracDelay (DELAYDATA *pDelay, char *pData, int nSam, float nDelaySam);
+int		MixDelayDry	 (DELAYDATA *pDelay, char *pData, int nSam, int   nDelaySam);
+int		MixFracDelayDry(DELAYDATA *pDelay, char *pData, int nSam, float  nDelaySam);
+int     GetTabDelay   (DELAYDATA *pDelay, char *pData, int nSam);
+int		MixTabDelayDry(DELAYDATA *pDelay, char *pData, int nSam);
